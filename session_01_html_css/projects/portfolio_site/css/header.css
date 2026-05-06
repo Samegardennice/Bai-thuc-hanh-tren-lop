@@ -1,0 +1,27 @@
+header{
+    width: 100%;
+    position: sticky;
+    top:0;
+    font-size:x-large;
+    box-sizing: border-box;
+    display: flex;
+    font: weight 20px;
+    font-family:var(--font-main);
+    justify-content: space-between;
+    align-items:start;
+    background-color:rgb(255, 255, 255);
+    height: 50px;
+}
+.logo{
+    font-weight: bold;
+    color: var(--color-primary);
+}
+header nav a{
+    font-size:large;
+    color: var(--color-dark);
+    text-decoration: none;
+    justify-content: flex-end;
+}
+header nav a:hover{
+    color: var(--color-secondary);
+}
