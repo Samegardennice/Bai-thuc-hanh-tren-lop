@@ -1,9 +1,10 @@
 .about-grid{
-    height: 100vh;
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 80px;
     align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .about-image img{
     border-radius: 50%;
@@ -23,4 +24,12 @@
     font-size: 20px;
     font-family: var(--font-main);
     color: rgb(99, 94, 81);
+}
+
+@media (max-width: 786px){
+    .about-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
 }
